@@ -8,7 +8,7 @@
 </head>
 <body>
 
-	${id } : logout!!!
+	아이디 :	${id } 는 로그아웃 되었습니다 ~!~! 
 	<%
 		session.invalidate();
 	%>

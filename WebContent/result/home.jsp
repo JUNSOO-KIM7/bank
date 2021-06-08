@@ -7,7 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<a href="/bank/index.jsp">HOME.</a> <br>
+	<p>
+	------------------
+	<p>
+	<a href="/bank/index.jsp">맨처음화면으로 GO</a> <br>
 	
 </body>
 </html>

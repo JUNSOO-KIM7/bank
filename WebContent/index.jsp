@@ -7,8 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<a href="login.jsp">로그인.</a> <br>
-	<a href="join.jsp">회원가입.</a>
+	index 첫화면 !!!!!!!!!!!<br>
+	<br>
+	<a href="join.jsp">회원가입 GO GO</a><br>
+	<a href="login.jsp">로그인 GO GO</a> <br>
+	
 	
 	
 </body>

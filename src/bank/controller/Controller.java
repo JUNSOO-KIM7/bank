@@ -9,5 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 public interface Controller {
 	
 	public void execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException;
+	
+	// execute 메소드. (-,-) 를 매개변수로.
 
 }

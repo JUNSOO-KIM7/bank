@@ -17,12 +17,13 @@ public class LoginController implements Controller {
 		String pwd = request.getParameter("pwd");
 		
 		Service s = Service.getInstance();
-		Boolean result = s.login(id, pwd);
+		boolean result = s.login(id, pwd);
 		String path = null;
+		
 		if(result)
 		{
-			HttpSession session = request.getSession();
-			session.setAttribute("id", id);
+			HttpSession session = request.getSession();	// 세션 생성 및 얻기.
+			session.setAttribute("id", id);				// ("name", value) // 세션에 값 저장. // 객체 object 저장.
 			path = "/menu.jsp";
 		}
 		else

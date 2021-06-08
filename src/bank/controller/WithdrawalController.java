@@ -15,15 +15,17 @@ public class WithdrawalController implements Controller {
 		// TODO Auto-generated method stub
 		int money = Integer.parseInt(request.getParameter("money"));
 		
-		String id = (String)(request.getSession().getAttribute("id"));
+		String id = (String)(request.getSession().getAttribute("id"));	// 한번에 처리
 		
-		int tMoney = Service.getInstance().withdrawal(id, money);
+		int tMoney = Service.getInstance().withdrawal(id, money);		// 한번에 처리
 		if(tMoney < 0)
 		{
 			request.setAttribute("result", "Money is not enough");
 		}
+		
 		request.setAttribute("money", money);
 		request.setAttribute("tMoney", tMoney);
+		
 		HttpUtil.forward(request, response, "/result/withdrawalResult.jsp");
 	}
 

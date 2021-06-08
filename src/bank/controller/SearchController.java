@@ -16,18 +16,18 @@ public class SearchController implements Controller {
 		String id = request.getParameter("id");
 		
 		boolean result = Service.getInstance().search(id);
-		String msg=null;
+		
+		String msg = null;
+		
 		if(result == false)
 			msg = "false";
 		else
 			msg = "true";
+		
 		request.setAttribute("msg", msg);
 		request.setAttribute("rId", id);
+		
 		HttpUtil.forward(request, response, "/transfer.jsp");
 
-		
 	}
-	
-	
-
 }

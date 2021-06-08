@@ -7,13 +7,14 @@
 <title>Insert title here</title>
 </head>
 <body>
-
-	Total Money : ${money }
+	7번째 화면 ~ 출금 ~
+	<p>
+	현재 총 잔고 : ${money}
 	<p>
 	<form action="withdrawal.do" method="post">
-		Money : <input type="text" name="money" /><br>
-		<input type="submit" value="WITHDRAWAL" />
-	
+	출금 할 금액 : <input type="text" name="money" required/><br>
+	<input type="submit" value="WITHDRAWAL" />
 	</form>
+	
 </body>
 </html>

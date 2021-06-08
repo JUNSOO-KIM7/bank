@@ -10,7 +10,7 @@
 	<p>
 	------------------
 	<p>
-	<a href = "/bank/menu.jsp">Menu Home</a>
+	<a href = "/bank/menu.jsp">MENU 화면으로 GO</a>
 
 </body>
 </html>

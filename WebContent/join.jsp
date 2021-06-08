@@ -7,9 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
+	두번째 화면 / 회원가입 화면 !!<br>
+	<br>
 	<form action="join.do" method="post">	
-	아이디!!!!! : <input type="text" name="id" /><br>
-	비번 !!! : <input type="password" name="pwd" /><br>
+	아이디 입력 -> : <input type="text" name="id" /><br>
+	비밀번호 입력 -> : <input type="password" name="pwd" /><br>
 	<input type="submit" value="JOIN" />
 	</form>
 

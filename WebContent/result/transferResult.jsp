@@ -13,14 +13,15 @@
 		if (result == null)
 		{
 	%>
-		${id }->${rId } : ${money }/${tMoney }
+		송금한 ID : ${id } -------> 받는 ID : ${rId } <br>
+		송금한 돈 : ${money }<br>
+		남은 현재 잔고 : ${tMoney }<br>
 		
-		<% } else {
+	<% 
+		} else {
 			out.print(result);
 		}
-		
-		
-		%>
+	%>
 		<p>
 		<%@ include file="homeMenu.jsp" %>
 

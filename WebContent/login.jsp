@@ -7,9 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="login.do" method="put">	
-	아이디!!!!! : <input type="text" name="id" /><br>
-	비번 !!! : <input type="password" name="pwd" /><br>
+	세번째. 로그인화면.<br>
+	<br>
+	<form action="login.do" method="post">	
+	ID 입력 -> : <input type="text" name="id" /><br>
+	PASSWORD 입력 -> : <input type="password" name="pwd" /><br>
 	<input type="submit" value="LOGIN" />
 	</form>
 </body>

@@ -26,12 +26,13 @@ public class QueryController implements Controller {
 		int money = 0;
 		if(id==null)
 		{
-			System.out.println("query:id is not exist");
+			System.out.println("조회 : 아이디 존재XXXXX  query:id is not exist");
 		}
 		else
 			money = Service.getInstance().query(id);
 		
 		request.setAttribute("money", money);
+		
 		HttpUtil.forward(request, response, path);
 		
 	}

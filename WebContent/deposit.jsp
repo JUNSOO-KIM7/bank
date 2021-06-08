@@ -7,8 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
+	5번째 화면 !!!! 입금 !! <br>
+	<br>
 	<form action="deposit.do" method="post">	
-	돈!!!!! : <input type="text" name="money" /><br>
+	입금할 돈을 입력하세요 : <input type="text" name="money" /><br>
 	
 	<input type="submit" value="DEPOSIT" />
 	</form>
